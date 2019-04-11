@@ -36,4 +36,3 @@ class AsyncTaskView(ListView):
             logging.exception('Exception causes by : ' + str(ex))
             result = {'response': "Exception causes by : " + str(ex)}
             return HttpResponse(JsonResponse(result, safe=False), content_type='application/json')
-
