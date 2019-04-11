@@ -166,7 +166,7 @@ If you want to keep track of the tasks states, Celery needs to store or send the
 
 	`It looks like this:`
 
-	![Celery worker window](https://github.com/vickymax/django-celery/worker_console.png)
+![Celery worker window](https://github.com/vickymax/django-celery/blob/master/worker_console.png)
 
 ## Run Django app 
 	
