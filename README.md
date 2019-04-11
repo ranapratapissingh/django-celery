@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 # Django Celery - With Parallel Processing
 
@@ -211,6 +210,4 @@ celery_app/
 Contact the developer and tell me what you tried to do that didn’t work.
 
 - [Reporting an issue](https://github.com/vickymax/django-celery/issues/new).
-=======
-# django-celery
->>>>>>> 253d2bc45a2c39be10b258b81a5fd62b74653a03
+
