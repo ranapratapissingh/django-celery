@@ -12,8 +12,6 @@ logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=lo
 
 class AsyncTaskView(ListView):
 
-    template_name = 'index.html'
-
     def get(self, request, **kwargs):
         try:
             if request.method == "GET":
