@@ -210,4 +210,3 @@ celery_app/
 Contact the developer and tell me what you tried to do that didn’t work.
 
 - [Reporting an issue](https://github.com/vickymax/django-celery/issues/new).
-
