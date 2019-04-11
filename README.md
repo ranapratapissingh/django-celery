@@ -39,11 +39,9 @@ Here we will use `redis` as a broker. For the Redis support you have to install 
 #### Installing Celery
 
 Celery is on the Python Package Index (PyPI), so it can be installed with standard Python tools like **pip or easy_install** :
-
-	~~~
-		$ pip install celery
-	~~~
-
+~~~
+	$ pip install celery
+~~~
 #### Creating first task 
 
 To use Celery with your Django project you must first define an instance of the Celery library (called an “app”)
@@ -99,8 +97,6 @@ The **@shared_task** decorator lets you create tasks without having any concrete
 __file__ : __celery_app/asynctask/tasks.py__
 
 ~~~
-# Create your tasks here
-
 from __future__ import absolute_import, unicode_literals
 from celery import shared_task
 import eventlet
@@ -170,7 +166,7 @@ If you want to keep track of the tasks states, Celery needs to store or send the
 
 	`It looks like this:`
 
-	![alt text](https://raw.githubusercontent.com/vickymax/django-celry/master/celery_app/worker_console.png)
+	![Celery worker window](https://github.com/vickymax/django-celery/worker_console.png)
 
 ## Run Django app 
 	
