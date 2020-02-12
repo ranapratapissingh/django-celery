@@ -13,7 +13,7 @@ dataclasses==0.6
 datashape==0.5.4
 decorator==4.3.0
 distributed==1.21.8
-Django==2.0.6
+Django==2.2.10
 djongo==1.2.32
 eventlet==0.24.1
 fastcache==1.0.2
